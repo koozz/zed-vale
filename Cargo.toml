@@ -1,0 +1,19 @@
+[package]
+name = "zed-vale"
+version = "0.0.1"
+authors = ["Jan van den Berg <koozz@linux.com>"]
+license = "Apache-2.0"
+description = "Zed extension adding Vale spell checking and style checking."
+keywords = ["zed", "vale"]
+categories = ["development-tools"]
+homepage = "https://github.com/koozz/zed-vale"
+repository = "https://github.com/koozz/zed-vale"
+readme = "README.md"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.0.6"
