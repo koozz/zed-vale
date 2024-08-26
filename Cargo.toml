@@ -1,6 +1,6 @@
 [package]
 name = "zed-vale"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["Jan van den Berg <koozz@linux.com>"]
 license = "Apache-2.0"
 description = "Zed extension adding Vale spell checking and style checking."

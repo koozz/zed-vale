@@ -1,7 +1,7 @@
 id = "vale"
 name = "Vale Language Server"
 description = "Zed extension adding Vale spell checking and style checking."
-version = "0.0.1"
+version = "0.0.2"
 schema_version = 1
 authors = ["Jan van den Berg <koozz@linux.com>"]
 repository = "https://github.com/koozz/zed-vale"
