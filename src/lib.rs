@@ -73,6 +73,9 @@ impl ValeExtension {
             )
             .map_err(|e| format!("failed to download file: {e}"))?;
 
+            zed::make_file_executable(&binary_path)
+                .map_err(|e| format!("failed to make vale executable: {e}"))?;
+
             let entries =
                 fs::read_dir(".").map_err(|e| format!("failed to list working directory {e}"))?;
             for entry in entries {
