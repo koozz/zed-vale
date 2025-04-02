@@ -8,4 +8,4 @@ repository = "https://github.com/koozz/zed-vale"
 
 [language_servers.vale]
 name = "Vale Language Server"
-languages = ["Markdown", "AsciiDoc"]
+languages = ["AsciiDoc", "Markdown", "Plain Text"]
